@@ -11,7 +11,16 @@ from fastai.vision import *
 model_file_url = 'https://www.dropbox.com/s/bw7unf2wwlfgsld/therealreal.pth?dl=1'
 model_file_name = 'therealreal'
 
-classes = ['This is a pair of black pants.', 'This is black suits.', 'This is Burberry trench coat.', 'This is a ring from Cartier.', 'This is a Chanel bag.', 'This is a pair of Christian Louboutin shoes.', 'This is a grey sweater.', 'This is a Gucci bag.', 'This is a red dress.', 'This is a Rolex watch.']
+classes = ['This is Burberry trench coat.',
+ 'This is a Chanel bag.',
+ 'This is a Gucci bag.',
+ 'This is a Rolex watch.',
+ 'This is a grey sweater.',
+ 'This is a pair of Christian Louboutin shoes.',
+ 'This is a pair of black pants.',
+ 'This is a red dress.',
+ 'This is a Cartier jewelry.',
+ 'This is black suits.']
 
 path = Path(__file__).parent
 
